@@ -1,0 +1,231 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T16:24:35.783Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9227000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validated User makes a purchase",
+        "description": "",
+        "id": "purchase-flow;validated-user-makes-a-purchase",
+        "after": [
+          {
+            "result": {
+              "duration": 678000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5443000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User landed login page",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.User_landed_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3354000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks the sign in button",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.user_clicks_the_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1381000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters email and password",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.User_enters_email_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 895000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is redirected to homepage",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.User_is_redirected_to_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2171000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User searches \"t-shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"t-shirts\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.user_searches(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User adds the product to cart",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.user_adds_the_product_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2433000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks proceed the checkout button",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.user_clicks_proceed_the_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 920000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks proceed button in the summary page",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.user_clicks_proceed_button_in_the_summary_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1019000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks proceed button in address",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.user_clicks_proceed_button_in_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1246000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks Checkbox of agreement and clicks proceed button",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.user_clicks_checkbox_of_agreement_and_clicks_proceed_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 880000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select the bank wire payment",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.select_the_bank_wire_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify user can see the summary of order",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.verifyUserCanSeeTheSummaryOfOrder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2707000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Confirm the order",
+            "match": {
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.confirmTheOrder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the message \"Your order on My Store is complete.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your order on My Store is complete.\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.purchaseFlow.stepdefinitions.LoginStepDefs.verifyTheMessageIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Purchase Flow",
+    "description": "",
+    "id": "purchase-flow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PurchaseFlow.feature",
+    "tags": []
+  }
+]
